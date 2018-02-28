@@ -6,8 +6,12 @@ namespace Runner.Tests
     /// Test class for Sum of multiples library
     /// </summary>
     [TestClass]
-    public class SumOfMultipleTest
+    public class SumOfMultipleTest : BaseTest
     {
+        public SumOfMultipleTest() : base()
+        {
+ 
+        }
 
         /// <summary>
         /// First scenario: Testing scenario sending zero as parameter
@@ -20,7 +24,7 @@ namespace Runner.Tests
             var param = 0;
 
             //Act
-            var result = SumOfMultiple.Call(param);
+            var result = _sumOfMultiple.Call(param);
 
             //Assert
             Assert.AreEqual(result, 0);
@@ -37,7 +41,7 @@ namespace Runner.Tests
             var param = -10;
 
             //Act
-            var result = SumOfMultiple.Call(param);
+            var result = _sumOfMultiple.Call(param);
 
             //Assert
             Assert.AreEqual(result, 0);
@@ -56,9 +60,9 @@ namespace Runner.Tests
             var primeNumberParam = 31;
 
             //Act
-            var result1 = SumOfMultiple.Call(evenParam);
-            var result2 = SumOfMultiple.Call(oddParam);
-            var result3 = SumOfMultiple.Call(primeNumberParam);
+            var result1 = _sumOfMultiple.Call(evenParam);
+            var result2 = _sumOfMultiple.Call(oddParam);
+            var result3 = _sumOfMultiple.Call(primeNumberParam);
 
             //Assert
             Assert.AreEqual(result1, 33);

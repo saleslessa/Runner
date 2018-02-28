@@ -6,8 +6,14 @@ namespace Runner.Tests
     /// Test class for Sequence Analysis library
     /// </summary>
     [TestClass]
-    public class SequenceAnalysisTest
+    public class SequenceAnalysisTest : BaseTest
     {
+       
+
+        public SequenceAnalysisTest() : base()
+        {
+            
+        }
         /// <summary>
         /// First scenario: Testing scenario sending an empty string as input
         /// Should return an empty string
@@ -19,7 +25,7 @@ namespace Runner.Tests
             var param = "";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "");
@@ -36,7 +42,7 @@ namespace Runner.Tests
             var param = "just a normal string";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "");
@@ -53,7 +59,7 @@ namespace Runner.Tests
             var param = "123123123";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "");
@@ -70,7 +76,7 @@ namespace Runner.Tests
             var param = "!@#%&***";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "");
@@ -87,7 +93,7 @@ namespace Runner.Tests
             var param = "!@#%&*13123test**";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "");
@@ -103,7 +109,7 @@ namespace Runner.Tests
             var param = "Welcome To .NET Core 2.0";
 
             //Act
-            var result = SequenceAnalysis.Call(param);
+            var result = _sequenceAnalysis.Call(param);
 
             //Assert
             Assert.AreEqual(result, "CENTTW");

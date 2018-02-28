@@ -16,3 +16,12 @@ C:/Users/sales.alencar/source/repos/Runner/SumOfMultiple/obj/Debug/netcoreapp2.0
 /Users/Sales/Documents/GitHub/Runner/SumOfMultiple/obj/Debug/netcoreapp2.0/SumOfMultiple.AssemblyInfo.cs
 /Users/Sales/Documents/GitHub/Runner/SumOfMultiple/obj/Debug/netcoreapp2.0/SumOfMultiple.dll
 /Users/Sales/Documents/GitHub/Runner/SumOfMultiple/obj/Debug/netcoreapp2.0/SumOfMultiple.pdb
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\bin\Debug\netcoreapp2.0\SumOfMultiple.deps.json
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\bin\Debug\netcoreapp2.0\SumOfMultiple.dll
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\bin\Debug\netcoreapp2.0\SumOfMultiple.pdb
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.csprojResolveAssemblyReference.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.csproj.CoreCompileInputs.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.AssemblyInfoInputs.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.AssemblyInfo.cs
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.dll
+C:\Users\sales.alencar\Documents\GitHub\Runner\SumOfMultiple\obj\Debug\netcoreapp2.0\SumOfMultiple.pdb

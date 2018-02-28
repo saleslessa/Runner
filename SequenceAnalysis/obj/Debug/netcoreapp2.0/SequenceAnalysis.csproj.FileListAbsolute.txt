@@ -16,3 +16,12 @@ c:/Users/sales.alencar/source/repos/Runner/SequenceAnalysis/obj/Debug/netcoreapp
 /Users/Sales/Documents/GitHub/Runner/SequenceAnalysis/obj/Debug/netcoreapp2.0/SequenceAnalysis.AssemblyInfo.cs
 /Users/Sales/Documents/GitHub/Runner/SequenceAnalysis/obj/Debug/netcoreapp2.0/SequenceAnalysis.dll
 /Users/Sales/Documents/GitHub/Runner/SequenceAnalysis/obj/Debug/netcoreapp2.0/SequenceAnalysis.pdb
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\bin\Debug\netcoreapp2.0\SequenceAnalysis.deps.json
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\bin\Debug\netcoreapp2.0\SequenceAnalysis.dll
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\bin\Debug\netcoreapp2.0\SequenceAnalysis.pdb
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.AssemblyInfoInputs.cache
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.AssemblyInfo.cs
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.dll
+C:\Users\sales.alencar\Documents\GitHub\Runner\SequenceAnalysis\obj\Debug\netcoreapp2.0\SequenceAnalysis.pdb

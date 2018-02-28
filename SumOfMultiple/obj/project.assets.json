@@ -664,28 +664,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/Sales/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\sales.alencar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/Users/Sales/Documents/GitHub/Runner/SumOfMultiple/SumOfMultiple.csproj",
+      "projectUniqueName": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SumOfMultiple\\SumOfMultiple.csproj",
       "projectName": "SumOfMultiple",
-      "projectPath": "/Users/Sales/Documents/GitHub/Runner/SumOfMultiple/SumOfMultiple.csproj",
-      "packagesPath": "/Users/Sales/.nuget/packages/",
-      "outputPath": "/Users/Sales/Documents/GitHub/Runner/SumOfMultiple/obj",
+      "projectPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SumOfMultiple\\SumOfMultiple.csproj",
+      "packagesPath": "C:\\Users\\sales.alencar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SumOfMultiple\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Sales/.config/NuGet/NuGet.Config"
+        "C:\\Users\\sales.alencar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -705,7 +710,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

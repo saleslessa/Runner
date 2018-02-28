@@ -57,6 +57,27 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyModel/1.0.3": {
         "type": "package",
         "dependencies": {
@@ -1712,6 +1733,28 @@
         "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
         "microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
         "microsoft.dotnet.platformabstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/2.0.0": {
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyModel/1.0.3": {
@@ -5719,6 +5762,7 @@
     ".NETCoreApp,Version=v2.0": [
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
+      "Microsoft.Extensions.DependencyInjection >= 2.0.0",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "SequenceAnalysis >= 1.0.0",
@@ -5726,38 +5770,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/Sales/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\sales.alencar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/Users/Sales/Documents/GitHub/Runner/Tests/Tests.csproj",
+      "projectUniqueName": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/Sales/Documents/GitHub/Runner/Tests/Tests.csproj",
-      "packagesPath": "/Users/Sales/.nuget/packages/",
-      "outputPath": "/Users/Sales/Documents/GitHub/Runner/Tests/obj",
+      "projectPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\sales.alencar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Sales/.config/NuGet/NuGet.Config"
+        "C:\\Users\\sales.alencar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/Sales/Documents/GitHub/Runner/SequenceAnalysis/SequenceAnalysis.csproj": {
-              "projectPath": "/Users/Sales/Documents/GitHub/Runner/SequenceAnalysis/SequenceAnalysis.csproj"
+            "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SequenceAnalysis\\SequenceAnalysis.csproj": {
+              "projectPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SequenceAnalysis\\SequenceAnalysis.csproj"
             },
-            "/Users/Sales/Documents/GitHub/Runner/SumOfMultiple/SumOfMultiple.csproj": {
-              "projectPath": "/Users/Sales/Documents/GitHub/Runner/SumOfMultiple/SumOfMultiple.csproj"
+            "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SumOfMultiple\\SumOfMultiple.csproj": {
+              "projectPath": "C:\\Users\\sales.alencar\\Documents\\GitHub\\Runner\\SumOfMultiple\\SumOfMultiple.csproj"
             }
           }
         }
@@ -5771,23 +5820,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.5.0"
-          },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "1.2.0"
+            "version": "[1.2.0, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "1.2.0"
+            "version": "[1.2.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.5.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
