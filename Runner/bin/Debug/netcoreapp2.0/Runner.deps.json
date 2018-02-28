@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Runner/1.0.0": {
+        "dependencies": {
+          "SequenceAnalysis": "1.0.0",
+          "SumOfMultiple": "1.0.0"
+        },
+        "runtime": {
+          "Runner.dll": {}
+        }
+      },
+      "SequenceAnalysis/1.0.0": {
+        "runtime": {
+          "SequenceAnalysis.dll": {}
+        }
+      },
+      "SumOfMultiple/1.0.0": {
+        "runtime": {
+          "SumOfMultiple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Runner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SequenceAnalysis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SumOfMultiple/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

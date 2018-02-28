@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{C2AABBBE-C0DC-4D3D-965C-85339913A712}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Runner/Program.cs">
+    <Files>
+      <File FileName="Runner/Program.cs" Line="1" Column="1" />
+      <File FileName="Tests/SequenceAnalysisTest.cs" Line="25" Column="35" />
+      <File FileName="Tests/SumOfMultipleTest.cs" Line="64" Column="1" />
+      <File FileName="SumOfMultiple/SumOfMultiple.cs" Line="1" Column="1" />
+      <File FileName="SequenceAnalysis/SequenceAnalysis.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Runner" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="Runner" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="SequenceAnalysisTest" expanded="True" />
+                  <Node name="SumOfMultipleTest" expanded="True">
+                    <Node name="Should_Return_Valid_Numbers" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Runner PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
