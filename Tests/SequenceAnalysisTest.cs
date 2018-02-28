@@ -8,8 +8,6 @@ namespace Runner.Tests
     [TestClass]
     public class SequenceAnalysisTest : BaseTest
     {
-       
-
         public SequenceAnalysisTest() : base()
         {
             
