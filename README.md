@@ -10,7 +10,8 @@
 - Visual Studio 2017 for Mac
 - .NET Core SDK 2.0
 - System.Linq
-- MSTest Framework
+- Microsoft.Extensions.DependencyInjection
+- Microsoft.VisualStudio.TestTools.UnitTesting
 
 ## Design Patterns
 - Unit Tests using AAA Pattern
@@ -26,3 +27,4 @@
 		- Class library containing SumOfMultiple class which is responsible for finding the sum of all natural numbers that are a multiple of 3 or 5 below a limit provided as input.
     - **Tests** 
         - Test project containing unit tests to cover all methods and scenarios of the project.
+	
