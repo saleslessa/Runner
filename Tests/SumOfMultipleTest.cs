@@ -1,4 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Runner.Domain;
+using System;
 
 namespace Runner.Tests
 {
@@ -6,11 +8,13 @@ namespace Runner.Tests
     /// Test class for Sum of multiples library
     /// </summary>
     [TestClass]
-    public class SumOfMultipleTest : BaseTest
+    public class SumOfMultipleTest 
     {
-        public SumOfMultipleTest() : base()
+        private readonly ISumOfMultiple _sumOfMultiple;
+
+        public SumOfMultipleTest()
         {
- 
+            _sumOfMultiple = Container.GetService<ISumOfMultiple>();
         }
 
         /// <summary>
@@ -35,6 +39,7 @@ namespace Runner.Tests
         /// Should return zero
         /// </summary>
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
         public void Should_Return_Zero_Cen2()
         {
             //Arrange

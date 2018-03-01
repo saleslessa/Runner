@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Runner
+namespace Runner.Domain
 {
     public interface ISumOfMultiple
     {

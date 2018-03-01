@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Runner
+namespace Runner.Domain
 {
     /// <summary>
     /// Class responsible for making sequence analysis

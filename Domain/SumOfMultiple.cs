@@ -1,7 +1,7 @@
-﻿using McMaster.Extensions.CommandLineUtils;
+﻿using System;
 using System.Linq;
 
-namespace Runner
+namespace Runner.Domain
 {
     /// <summary>
     /// Class responsible for making sum of multiples
@@ -15,6 +15,8 @@ namespace Runner
         /// <returns>Sum of all natural numbers that are multiple of 3 or 5</returns>
         public int Call(int input)
         {
+            if (input < 0) throw new ArgumentException("Invalid parameter");
+
             return input < 3 ? 0 : Enumerable.Range(0, input).Where(c => c % 3 == 0 || c % 5 == 0).Sum(c => c);
         }
 

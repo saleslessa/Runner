@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Runner.Domain;
 
 namespace Runner.Tests
 {
@@ -6,11 +7,13 @@ namespace Runner.Tests
     /// Test class for Sequence Analysis library
     /// </summary>
     [TestClass]
-    public class SequenceAnalysisTest : BaseTest
+    public class SequenceAnalysisTest 
     {
-        public SequenceAnalysisTest() : base()
+        private readonly ISequenceAnalysis _sequenceAnalysis;
+
+        public SequenceAnalysisTest() 
         {
-            
+            _sequenceAnalysis = Container.GetService<ISequenceAnalysis>();
         }
         /// <summary>
         /// First scenario: Testing scenario sending an empty string as input

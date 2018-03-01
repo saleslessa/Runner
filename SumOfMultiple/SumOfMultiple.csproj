@@ -5,4 +5,8 @@
     <RootNamespace>Runner</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.1.1" />
+  </ItemGroup>
+
 </Project>
