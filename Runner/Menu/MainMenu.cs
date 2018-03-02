@@ -1,6 +1,4 @@
-﻿using McMaster.Extensions.CommandLineUtils;
-
-namespace Runner
+﻿namespace Runner
 {
     /// <summary>
     /// Abstract class responsible for behavior of application's menu
