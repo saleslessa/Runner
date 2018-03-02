@@ -18,7 +18,7 @@ namespace Runner
 
         /// <summary>
         /// System's Main menu. To add new menu options, just add a command menu attribute 
-        /// with name of the class which implements MainMenu
+        /// with name of the class which implements MainMenu and it's position
         /// </summary>
         [CommandMenu(order: 1, name: "SequenceAnalysisMenu")]
         [CommandMenu(order: 2, name: "SumOfMultipleMenu")]
