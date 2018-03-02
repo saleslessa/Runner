@@ -28,4 +28,7 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Menu\" />
+  </ItemGroup>
 </Project>

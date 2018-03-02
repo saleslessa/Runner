@@ -22,13 +22,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Empty_String()
         {
-            //Arrange
             var param = "";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "");
         }
 
@@ -39,13 +36,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Empty_String_Cen2()
         {
-            //Arrange
             var param = "just a normal string";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "");
         }
 
@@ -56,13 +50,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Empty_String_Cen3()
         {
-            //Arrange
             var param = "123123123";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "");
         }
 
@@ -73,13 +64,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Empty_String_Cen4()
         {
-            //Arrange
             var param = "!@#%&***";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "");
         }
 
@@ -90,13 +78,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Empty_String_Cen5()
         {
-            //Arrange
             var param = "!@#%&*13123test**";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "");
         }
 
@@ -106,13 +91,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Shoud_Return_Only_Capital_Letters_Cen1() 
         {
-            //Arrange
             var param = "Welcome To .NET Core 2.0";
 
-            //Act
             var result = _sequenceAnalysis.Call(param);
 
-            //Assert
             Assert.AreEqual(result, "CENTTW");
         }
 

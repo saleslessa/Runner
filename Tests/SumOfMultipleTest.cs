@@ -24,13 +24,10 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Zero_Cen1()
         {
-            //Arrange
             var param = 0;
 
-            //Act
             var result = _sumOfMultiple.Call(param);
 
-            //Assert
             Assert.AreEqual(result, 0);
         }
 
@@ -42,13 +39,10 @@ namespace Runner.Tests
         [ExpectedException(typeof(ArgumentException))]
         public void Should_Return_Zero_Cen2()
         {
-            //Arrange
             var param = -10;
 
-            //Act
             var result = _sumOfMultiple.Call(param);
 
-            //Assert
             Assert.AreEqual(result, 0);
         }
 
@@ -59,17 +53,14 @@ namespace Runner.Tests
         [TestMethod]
         public void Should_Return_Valid_Numbers()
         {
-            //Arrange
             var evenParam = 12;
             var oddParam = 25;
             var primeNumberParam = 31;
 
-            //Act
             var result1 = _sumOfMultiple.Call(evenParam);
             var result2 = _sumOfMultiple.Call(oddParam);
             var result3 = _sumOfMultiple.Call(primeNumberParam);
 
-            //Assert
             Assert.AreEqual(result1, 33);
             Assert.AreEqual(result2, 143);
             Assert.AreEqual(result3, 225);
