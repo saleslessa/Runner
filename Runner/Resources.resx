@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Press any key to close program</value>
+  </data>
+  <data name="FirstMessage" xml:space="preserve">
+    <value>Hello! Please select the option below</value>
+  </data>
+  <data name="GenericErrorMessage" xml:space="preserve">
+    <value>Something went wrong. Please see errors below:</value>
+  </data>
+  <data name="InvalidOption" xml:space="preserve">
+    <value>Invalid Option</value>
+  </data>
+  <data name="NoCommands" xml:space="preserve">
+    <value>There is no command configured</value>
+  </data>
 </root>

@@ -29,9 +29,9 @@ namespace Runner
                 var configuredOptions = typeof(Program).GetMethod("Main_Menu")
                                                .GetCustomAttributes(typeof(CommandMenu), false);
 
-                if (configuredOptions == null) throw new Exception("There is no command configured");
+                if (configuredOptions == null) throw new Exception(Resources.NoCommands);
 
-                Console.WriteLine("Hello! Please select the option below");
+                Console.WriteLine(Resources.FirstMessage);
 
                 Dictionary<int, object> menuOption = GenerateMenu((IEnumerable<CommandMenu>)configuredOptions);
 
@@ -39,8 +39,8 @@ namespace Runner
             }
             catch (Exception ex)
             {
-                Console.WriteLine(string.Format("Something went wrong. Please see errors below:\r\n{0}", ex.Message));
-                Console.WriteLine("Press any key to close program");
+                Console.WriteLine(string.Format("{0}\r\n{1}", Resources.GenericErrorMessage, ex.Message));
+                Console.WriteLine(Resources.ExitMessage);
                 Console.ReadKey();
             }
         }
@@ -53,13 +53,13 @@ namespace Runner
             {
                 var action = menuOption.FirstOrDefault(t => t.Key == selectedNumber);
 
-                if (action.Value == null) throw new InvalidOperationException("Invalid Option");
+                if (action.Value == null) throw new InvalidOperationException(Resources.InvalidOption);
 
                 ((MainMenu)action.Value).Execute();
             }
             else
             {
-                throw new InvalidOperationException("Invalid option");
+                throw new InvalidOperationException(Resources.InvalidOption);
             }
         }
 
@@ -86,7 +86,7 @@ namespace Runner
 
             if (!menuOption.Any())
             {
-                throw new InvalidProgramException("There is no command configured");
+                throw new InvalidProgramException(Resources.NoCommands);
             }
 
             return menuOption;

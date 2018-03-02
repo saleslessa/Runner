@@ -31,6 +31,8 @@ namespace Runner
 
                 var result = sumOfMultiple.Call(number);
                 Console.WriteLine(string.Format("The sum of multiples of 3 and 5 below {0} is: {1}", number, result));
+                Console.WriteLine(Resources.ExitMessage);
+                Console.ReadKey();
             }
             catch (Exception ex)
             {

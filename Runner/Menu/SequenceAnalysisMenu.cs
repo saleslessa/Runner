@@ -24,6 +24,8 @@ namespace Runner
 
                 var result = sequenceAnalysis.Call(input);
                 Console.WriteLine(string.Format("The uppercase words ordered alphabetically is: {0}", result));
+                Console.WriteLine(Resources.ExitMessage);
+                Console.ReadKey();
             }
             catch (Exception ex)
             {
