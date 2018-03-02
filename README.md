@@ -10,6 +10,7 @@
 - Visual Studio 2017 for Mac
 - .NET Core SDK 2.0
 - System.Linq
+- System.Reflection
 - Microsoft.Extensions.DependencyInjection
 - Microsoft.VisualStudio.TestTools.UnitTesting
 
@@ -21,10 +22,10 @@
 - The project was divided into 4 libraries with different responsibilities as described below:
 	- **Runner**
 		- Main project responsible for program execution.
-	- **SequenceAnalysis**
-		- Class library containing SequenceAnalysis class which is responsible for finding the uppercase words in a string, provided as input, and order all characters in these words alphabetically.
-	- **SumOfMultiple** 
-		- Class library containing SumOfMultiple class which is responsible for finding the sum of all natural numbers that are a multiple of 3 or 5 below a limit provided as input.
+	- **Domain**
+		- Layer containing containing classes responsible for business rules of application as follows:
+			- SequenceAnalysis: Responsible for finding the uppercase words in a string, provided as input, and order all characters in these words alphabetically.
+			- SumOfMultiple: Responsible for finding the sum of all natural numbers that are a multiple of 3 or 5 below a limit provided as input.
     - **Tests** 
         - Test project containing unit tests to cover all methods and scenarios of the project.
 	
